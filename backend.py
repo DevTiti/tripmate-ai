@@ -50,7 +50,7 @@ if not GROQ_API_KEY:
 # =========================
 
 llm = ChatGroq(
-    model="llama-3.1-8b-instant",
+    model="qwen/qwen3.6-27b",
     api_key=GROQ_API_KEY
 )
 
